@@ -49,7 +49,7 @@ for n in range(1985, 2016):
 	plt.xticks(ind + width / 2, ('5-14', '15-24', '25-34', '35-54', '55-74', '75+'))
 	plt.legend(loc="best")
 	plt.savefig(f"images/{n}.png")
-	#plt.show()
+	plt.clf()
 	print("Images Created")
 
 # build gif
